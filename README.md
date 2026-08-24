@@ -37,17 +37,15 @@ dotnet restore .\FontsQuickView.csproj -r win-x64
 dotnet build .\FontsQuickView.csproj -c Release -p:Platform=x64 --no-restore
 ```
 
-生成自包含发布目录：
+生成可供 Release 使用的自包含压缩包：
 
 ```powershell
-dotnet publish .\FontsQuickView.csproj `
-  -c Release `
-  -r win-x64 `
-  -p:Platform=x64 `
-  --self-contained true `
-  -p:WindowsAppSDKSelfContained=true `
-  -o .\artifacts\FontsQuickView-win-x64
+powershell.exe -NoProfile -ExecutionPolicy Bypass `
+  -File .\scripts\publish.ps1 `
+  -Version 1.0.0
 ```
+
+发布脚本会校验 WinUI 所需的 XBF 与 PRI 资源是否完整，再生成 `artifacts/v<版本>/FontsQuickView-win-x64.zip`。
 
 ## 技术栈
 
