@@ -1,0 +1,34 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Pp]ublish/
+[Tt]est[Rr]esults/
+
+# Visual Studio and user-specific settings
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains IDEs
+.idea/
+*.sln.iml
+
+# VS Code local settings
+.vscode/
+
+# NuGet packages and generated packages
+*.nupkg
+*.snupkg
+packages/
+
+# Operating-system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local development screenshot; it is not an application asset.
+/screenshot.png
