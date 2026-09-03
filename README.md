@@ -1,8 +1,8 @@
 # FontsQuickView（字体速览）
 
-[![Build](https://github.com/MEMZ-Edge01/FontsQuickView/actions/workflows/build.yml/badge.svg)](https://github.com/MEMZ-Edge01/FontsQuickView/actions/workflows/build.yml)
-[![GitHub Release](https://img.shields.io/github/v/release/MEMZ-Edge01/FontsQuickView)](https://github.com/MEMZ-Edge01/FontsQuickView/releases/latest)
-[![License](https://img.shields.io/github/license/MEMZ-Edge01/FontsQuickView)](LICENSE)
+[![Build](https://github.com/Edge-HH/FontsQuickView/actions/workflows/build.yml/badge.svg)](https://github.com/Edge-HH/FontsQuickView/actions/workflows/build.yml)
+[![GitHub Release](https://img.shields.io/github/v/release/Edge-HH/FontsQuickView)](https://github.com/Edge-HH/FontsQuickView/releases/latest)
+[![License](https://img.shields.io/github/license/Edge-HH/FontsQuickView)](LICENSE)
 
 FontsQuickView 是一款轻量的 Windows 字体预览工具，可以用同一段文字快速浏览、搜索和筛选系统中已安装的字体。
 
@@ -20,7 +20,7 @@ FontsQuickView 是一款轻量的 Windows 字体预览工具，可以用同一�
 
 ## 下载与运行
 
-1. 前往 [Releases](https://github.com/MEMZ-Edge01/FontsQuickView/releases/latest) 下载 `FontsQuickView-win-x64.zip`。
+1. 前往 [Releases](https://github.com/Edge-HH/FontsQuickView/releases/latest) 下载 `FontsQuickView-win-x64.zip`。
 2. 解压全部文件。
 3. 运行 `FontsQuickView.exe`。
 
